@@ -152,6 +152,12 @@
         }
       },
       "component": "shared.seo"
+    },
+    "dishes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dish.dish",
+      "mappedBy": "restaurant"
     }
   }
 }
